@@ -1,0 +1,7 @@
+[config]
+OUTPUT_BASE = /scratch1/NCEPDEV/nems/David.Burrows/dec5/output
+INPUT_BASE = /scratch1/NCEPDEV/nems/David.Burrows/dec5/verf_input
+MET_INSTALL_DIR = /contrib/spack-stack/spack-stack-1.8.0/envs/ue-intel-2021.5.0/install/intel/2021.5.0/met-11.1.1-tg7k7ab
+FCST_GRID_STAT_INPUT_DIR = /scratch1/NCEPDEV/nems/David.Burrows/dec5/fcst_input
+FCST_GRID_STAT_INPUT_TEMPLATE = gfs_3_{init?fmt=%Y%m%d}_{init?fmt=%H}00_{lead?fmt=%HHH}.grb2
+
